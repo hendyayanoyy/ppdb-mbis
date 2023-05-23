@@ -1,0 +1,409 @@
+/* HALAMAN HOME */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;800&display=swap");
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins" , Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 20vh;
+    background-color: #417ef0d3;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    z-index: 9;
+}
+
+nav .logo{
+    height: 100px;
+}
+
+nav .logo img{
+    height: 100%;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    padding-left: 60px;
+}
+
+.container-navbar svg {
+    display: none;
+}
+
+
+.responsive-menu {
+    position: absolute;
+    background-color: #2f3542d8;
+    height: 0%;
+    width: 100%;
+    top: 100%;
+    right: 0;
+    z-index: 999999;
+    overflow: hidden;
+    transition: .3s ease-in;
+}
+
+.responsive-menu-active {
+    height: 60vh;
+    z-index: 999999999;
+}
+
+.responsive-menu a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 25px;
+    transition: .3s ease-in;
+}
+
+.responsive-menu a:hover {
+    background-color: #000000ce;
+}
+
+/* CONTENT */
+.main-container{
+    display: flex;
+}
+
+.main-container .image1{
+    width: 50%;
+    background-color: #417ef07a;
+}
+
+.main-container .image1 img{
+    width: 100%;
+}
+
+.text  {
+    font-size: 20px;
+    position: relative;
+    padding: 40px;
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+    width: 50%;
+    background-color: #417ef07a;
+}
+
+.text h1 {
+    font-size: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.text p {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.ayo p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #2f3542;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .ul-footer {
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.ul-footer a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 20px;
+}
+
+footer .copyright {
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+}
+
+footer .copyright p {
+    font-size: 20px;
+    font-style: bold;
+}
+
+footer .logo img {
+    background-color: rgba(12, 14, 13, 0);
+    height: 100px;
+}
+
+.w-6 {
+    width: 50px;
+}
+
+.h-6 {
+    height: 50px;
+}
+
+
+/* HALAMAN PPDB */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;800&display=swap");
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* PPDB */
+
+nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 20vh;
+    border-bottom: solid 3px black;
+}
+
+nav .logo{
+    height: 100px;
+}
+
+nav .logo img{
+    height: 100%;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    padding-left: 60px;
+}
+
+nav ul li a{
+    display: flex;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-left: 50px;
+    width: 160px;
+    height: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+    color: #000;
+    background-color:  #ffffff;
+    border: 2px solid black;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+nav ul li a:hover{
+    background-color: #bbe7e4;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+    color: #010200;
+    transform: translateY(-7px);
+}
+
+
+.ppdb {
+    background-image: url("sekolah.png");
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    border-bottom: 10px solid black;
+}
+
+.ppdb::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 130px;
+    background-color: #020202;
+    opacity: 70%;
+}
+
+.ppdb p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 53px;
+    padding-bottom: 40px;
+    top: 35%;
+    bottom: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.daftar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 180px;
+}
+
+.daftar a {
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 80px;
+    width: 145px;
+    height: 46px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    z-index: 9;
+}
+
+.ppdb a:hover{
+    background-color: #4b48ee;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+/* FOOTER */
+footer {
+    background-color: #2f3542;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .ul-footer {
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.ul-footer a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 20px;
+}
+
+footer .copyright {
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+}
+
+footer .copyright p {
+    font-size: 20px;
+    font-style: bold;
+}
+
+footer .logo img {
+    background-color: rgba(12, 14, 13, 0);
+    height: 100px;
+}
+
+.w-6 {
+    width: 50px;
+}
+
+.h-6 {
+    height: 50px;
+}
+
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+    .main-container {
+        flex-direction: column;
+    }
+    
+    .main-container .image1 {
+        width: 100%;
+    }
+
+    .text  {
+        font-size: 20px;
+        position: relative;
+        padding: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url("hijau6.jpg");
+        background-size: cover;
+        width: 100%;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    .container-navbar svg {
+        display: block;
+    }
+
+    .container-navbar ul svg {
+        cursor: pointer;
+    }
+
+    .ppdb p {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .ppdb::before {
+        height: 86%;
+    }
+}
