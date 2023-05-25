@@ -56,7 +56,7 @@ nav li{
 }
 
 .responsive-menu-active {
-    height: 60vh;
+    height: 50vh;
     z-index: 999999999;
 }
 
