@@ -39,6 +39,7 @@ nav li{
 
 .container-navbar svg {
     display: none;
+    height: 50px;
 }
 
 
@@ -186,14 +187,16 @@ footer .logo img {
 
 /* PPDB */
 
-nav{
-
+nav {
     display: flex;
     align-items: center;
+    position: relative;
     justify-content: space-between;
     padding: 0 20px;
     height: 20vh;
-    border-bottom: solid 3px black;
+    background-color: #417ef0d3;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    z-index: 9;
 }
 
 nav .logo{
@@ -382,9 +385,7 @@ footer .logo img {
         font-size: 20px;
         position: relative;
         padding: 40px;
-        font-family: Arial, Helvetica, sans-serif;
-        background-image: url("hijau6.jpg");
-        background-size: cover;
+        font-family: Arial, Helvetica, sans-serif;        background-size: cover;
         width: 100%;
     }
 
@@ -407,5 +408,39 @@ footer .logo img {
 
     .ppdb::before {
         height: 86%;
+    }
+
+    nav {
+        height: 80px;
+    }
+
+    nav .logo img {
+        height: 70%;
+        padding: 0;
+    }
+
+    .text h1 {
+        font-size: 40px;
+    }
+
+    .text p {
+        font-size: 30px;
+    }
+
+    .ayo p {
+        font-size: 35px;
+    }
+
+    footer .logo img {
+        height: 75px;
+    }
+
+    footer .copyright p {
+        font-size: 15px;
+        font-style: bold;
+    }
+
+    footer .ul-footer {
+        font-size: 15px;
     }
 }
