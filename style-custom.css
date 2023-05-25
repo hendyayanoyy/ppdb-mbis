@@ -44,7 +44,7 @@ nav li{
 
 .responsive-menu {
     position: absolute;
-    background-color: #2f3542d8;
+    background: linear-gradient(to bottom, #61a2f8d3, #2665db);
     height: 0%;
     width: 100%;
     top: 100%;
@@ -60,7 +60,7 @@ nav li{
 }
 
 .responsive-menu a {
-    color: #fff;
+    color: #000000;
     display: block;
     text-decoration: none;
     font-size: 25px;
@@ -68,10 +68,12 @@ nav li{
     padding: 15px;
     margin-bottom: 25px;
     transition: .3s ease-in;
+    font-weight: 500;
 }
 
 .responsive-menu a:hover {
     background-color: #000000ce;
+    color: #fff;
 }
 
 /* CONTENT */
