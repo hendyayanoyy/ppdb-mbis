@@ -407,7 +407,8 @@ footer .logo img {
     }
 
     .ppdb::before {
-        height: 86%;
+        height: 720px;
+        margin-top: 0;
     }
 
     nav {
